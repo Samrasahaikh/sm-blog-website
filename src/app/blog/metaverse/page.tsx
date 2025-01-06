@@ -65,33 +65,33 @@ const MetaverseAndVirtualReality = () => {
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-2 fade-in">Applications of Metaverse and Virtual Reality</h2>
         <ul className="list-disc list-inside text-gray-700 mb-4 fade-in">
-          {`<li><strong>Gaming:</strong> Immersive games where players can interact in 3D worlds.</li>
+          <li><strong>Gaming:</strong> Immersive games where players can interact in 3D worlds.</li>
           <li><strong>Education:</strong> Virtual classrooms, interactive learning, and skill training.</li>
           <li><strong>Healthcare:</strong> Therapy, surgery simulations, and rehabilitation programs.</li>
           <li><strong>Work:</strong> Virtual offices and collaborative spaces.</li>
-          <li><strong>Social Interaction:</strong> Virtual events, meetups, and networking.</li>`}
+          <li><strong>Social Interaction:</strong> Virtual events, meetups, and networking.</li>
         </ul>
       </section>
 
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-2 fade-in">Benefits of Metaverse and Virtual Reality</h2>
         <ul className="list-disc list-inside text-gray-700 mb-4 fade-in">
-          {`<li><strong>Enhanced Interaction:</strong> Enables richer social interactions and experiences.</li>
+          <li><strong>Enhanced Interaction:</strong> Enables richer social interactions and experiences.</li>
           <li><strong>Innovation in Education:</strong> Provides hands-on learning through simulations.</li>
           <li><strong>Improved Accessibility:</strong> Bridges geographical gaps for work and socialization.</li>
           <li><strong>Revolutionary Healthcare:</strong> Aids in therapy and medical training.</li>
-          <li><strong>Creative Opportunities:</strong> Encourages artistic and technological advancements.</li>`}
+          <li><strong>Creative Opportunities:</strong> Encourages artistic and technological advancements.</li>
         </ul>
       </section>
 
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-2 fade-in">Disadvantages of Metaverse and Virtual Reality</h2>
         <ul className="list-disc list-inside text-gray-700 mb-4 fade-in">
-          {`<li><strong>Cost:</strong> High setup and maintenance costs for VR hardware.</li>
+          <li><strong>Cost:</strong> High setup and maintenance costs for VR hardware.</li>
           <li><strong>Health Concerns:</strong> Issues like eye strain, motion sickness, and mental fatigue.</li>
           <li><strong>Privacy Risks:</strong> Potential misuse of personal data and security vulnerabilities.</li>
           <li><strong>Dependency:</strong> Risk of over-reliance on virtual environments.</li>
-          <li><strong>Accessibility:</strong> Limited access for underprivileged groups due to cost and infrastructure.</li>`}
+          <li><strong>Accessibility:</strong> Limited access for underprivileged groups due to cost and infrastructure.</li>
         </ul>
       </section>
 

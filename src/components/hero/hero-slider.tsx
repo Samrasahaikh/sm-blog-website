@@ -37,7 +37,7 @@ export function CarouselPlugin() {
   return (
     <Carousel
       plugins={[plugin.current]}
-      className="lg:w-[1200px] md:w-[760px] md:h-[300px] lg:h-[500px] w-[360px] h-[260px] max-w-screen-2xl mx-auto"
+      className="lg:w-[1200px] md:w-[760px] md:h-[300px] lg:h-[500px] w-[350px] h-[250px] max-w-screen-2xl mx-auto"
       onMouseEnter={plugin.current.stop}
       onMouseLeave={plugin.current.reset}
     >
@@ -52,7 +52,7 @@ export function CarouselPlugin() {
                   alt={`Image ${index + 1}`}
                   width={500}
                   height={500}
-                  className="object-cover rounded-md lg:h-[490px] lg:w-[1500px] md:h-[290px] md:w-[760px] h-[250px] w-[370px]"
+                  className="object-cover rounded-md lg:h-[490px] lg:w-[1500px] md:h-[290px] md:w-[760px] h-[250px] w-[350px]"
                 />
 
                 {/* Text Overlay */}
