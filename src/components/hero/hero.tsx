@@ -77,7 +77,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className='max-w-screen-2xl mx-auto'>
+    <div className='max-w-screen-2xl mx-auto bg-slate-100'>
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap -m-4">

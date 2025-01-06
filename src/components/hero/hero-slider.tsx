@@ -37,7 +37,7 @@ export function CarouselPlugin() {
   return (
     <Carousel
       plugins={[plugin.current]}
-      className="md:w-[1200px] md:h-[500px] w-[400px] h-[200px] max-w-screen-2xl mx-auto"
+      className="lg:w-[1200px] md:w-[760px] md:h-[300px] lg:h-[500px] w-[360px] h-[260px] max-w-screen-2xl mx-auto"
       onMouseEnter={plugin.current.stop}
       onMouseLeave={plugin.current.reset}
     >
@@ -52,12 +52,12 @@ export function CarouselPlugin() {
                   alt={`Image ${index + 1}`}
                   width={500}
                   height={500}
-                  className="object-cover rounded-md md:h-[490px] md:w-[1500px] h-[250px] w-[400px]"
+                  className="object-cover rounded-md lg:h-[490px] lg:w-[1500px] md:h-[290px] md:w-[760px] h-[250px] w-[370px]"
                 />
 
                 {/* Text Overlay */}
                 <div className="absolute inset-0 items-center justify-center bg-black bg-opacity-50 ">
-                    <div className="justify-center items-center md:h-[300px] h-[200px] w-[250px] p-2 md:w-[500px] md:ml-[350px] md:mt-[130px] mt-6 ml-16 bg-black bg-opacity-50">
+                    <div className="justify-center items-center lg:h-[300px] h-[200px] w-[250px] p-2 md:w-[500px] md:ml-[150px] lg:ml-[350px] lg:mt-[130px] mt-6 ml-16 bg-black bg-opacity-50">
                   <h2 className="text-slate-200 text-sm md:text-3xl font-extrabold text-center px-2 font-serif ">
                     {slide.text}
                   </h2>
