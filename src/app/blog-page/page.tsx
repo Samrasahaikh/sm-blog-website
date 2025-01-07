@@ -5,7 +5,7 @@ import React, { useEffect } from 'react'
 
 const BlogPage = () => {
   const email = "shaikhsamra855@gmail.com"; // Replace with your email
-  const subject = "Hello from the Website!"; // Replace with your subject
+  const subject = "SM Blog Website!"; // Replace with your subject
   const body = "Hi, I want to connect with you.";
 
   useEffect(() => {
