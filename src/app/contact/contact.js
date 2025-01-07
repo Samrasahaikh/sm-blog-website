@@ -93,10 +93,10 @@ const ContactPage = () => {
               required
             ></textarea>
           </div>
-
+ 
           <button
             type="submit"
-            className="w-full bg-blue-500 text-white py-3 rounded-md hover:bg-blue-600 transition duration-200"
+            className="w-full bg-blue-500 text-white py-3 rounded-md hover:bg-blue-600 transition duration-200 shadow-lg shadow-blue-800"
           >
             Send Message
           </button>

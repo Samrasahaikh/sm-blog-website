@@ -1,8 +1,13 @@
 "use client"; // Enable client-side rendering for animations
 import Hero from '@/components/hero/hero'
+import Link from 'next/link';
 import React, { useEffect } from 'react'
 
 const BlogPage = () => {
+  const email = "shaikhsamra855@gmail.com"; // Replace with your email
+  const subject = "Hello from the Website!"; // Replace with your subject
+  const body = "Hi, I want to connect with you.";
+
   useEffect(() => {
     const fadeElements = document.querySelectorAll('.fade-in, .fade-in-delayed');
     
@@ -65,9 +70,11 @@ const BlogPage = () => {
       </p>
 
       {/* Contact Button */}
+      <Link href={`mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`}>
       <button className="mt-6 py-2 px-6 text-white bg-blue-600 rounded-md hover:bg-blue-700 transition duration-300 fade-in-delayed">
         Contact Me
       </button>
+      </Link>
     </div>
   );
 }
